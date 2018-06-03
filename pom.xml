@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -33,12 +34,12 @@
         <repository>
             <id>devops</id>
             <name>Internal Releases</name>
-            <url>http://35.196.248.248:8081/repository/maven-releases/</url>
+            <url>http://192.168.40.128:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>devops</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://35.196.248.248:8081/repository/maven-snapshots/</url>
+            <url>http://192.168.40.128:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
